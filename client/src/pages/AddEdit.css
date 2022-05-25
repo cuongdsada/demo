@@ -1,0 +1,36 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="sumbit"] {
+    width: 100px;
+    background-color: aquamarine;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="button"]{
+    width: 100%;
+    background-color: brown;
+    color: wheat;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="sumbit"]:hover{
+    background-color: #45a049;
+}
+
